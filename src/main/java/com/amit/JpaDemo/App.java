@@ -8,13 +8,13 @@ public class App {
 
 	public static void main(String[] args) {
 		//To get Employee Details from Table
-		//Employee employee = new App().getEmployeeDetails(103);
-		//System.out.println(employee);
+		Employee employee = new App().getEmployeeDetails(103);
+		System.out.println(employee);
 
 		//To set Employee Details in Table
-		new App().setEmployeeDetails(107, "Aman", 27, "Engineering");
-		Employee newEmployee = new App().getEmployeeDetails(107);
-		System.out.println(newEmployee);
+		//new App().setEmployeeDetails(107, "Aman", 27, "Engineering");
+		//Employee newEmployee = new App().getEmployeeDetails(107);
+		//System.out.println(newEmployee);
 	}
 
 	public Employee getEmployeeDetails(int employeeId) {

@@ -6,8 +6,8 @@
   <properties>
      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"></property>
      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/amitdb1"></property>
-     <property name="javax.persistence.jdbc.user" value="root"></property>
-     <property name="javax.persistence.jdbc.password" value="password"></property>
+     <property name="javax.persistence.jdbc.user" value="amit"></property>
+     <property name="javax.persistence.jdbc.password" value="amit"></property>
    </properties>
   </persistence-unit>
 </persistence>
